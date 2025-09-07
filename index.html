@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Final Project</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo"><span class="logo-icon">⚡</span>Commented CSS UI</div>
+    <div class="buttons">
+     <button id="toggleThemeBtn" class="btn">Toggle Theme</button>
+      <button class="btn primary">Contact</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>
+        Clean, modern starter <br />
+        with <em>fully commented</em> CSS.
+      </h1>
+      <p>
+        Use this page as a reference for what each CSS property does in a real
+        layout. Switch themes, hover the cards, and inspect the code.
+      </p>
+      <div class="actions">
+  <button id="cta" class="btn">Primary Action</button>
+  <button id="seeFeaturesBtn" class="btn outline">See Features</button>
+      </div>
+    </div>
+    <div class="hero-img">
+       <img src="photo final project.jpeg" alt="Hero Image">
+    </div>
+
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <div class="card">
+      <h3>Semantic HTML</h3>
+      <p>Sections, articles, headers, and footers organize content meaningfully.</p>
+    </div>
+    <div class="card">
+      <h3>Responsive Grid</h3>
+      <p>The card grid auto-fits columns and adapts across screen sizes.</p>
+    </div>
+    <div class="card">
+      <h3>Accessible Focus</h3>
+      <p>Inputs use a visible focus ring, improving keyboard navigation.</p>
+    </div>
+    <div class="card">
+      <h3>Theme Tokens</h3>
+      <p>Change a few custom properties to re-skin the entire interface.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact">
+    <h2>Get in touch</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Jane Doe" />
+
+      <small>Enter 2 or more characters.</small>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="you@example.com" />
+
+      <small>We’ll never share your email.</small>
+
+      <button type="submit" class="btn primary full">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Commented CSS UI. Built for teaching.
+  </footer>
+  <script src="script.js"></script>
+
+</body>
+</html>
