@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 document.addEventListener("DOMContentLoaded", () => {
-  // // زرار Primary Action
+  
   // const ctaBtn = document.getElementById("cta");
   // if (ctaBtn) {
   //   ctaBtn.addEventListener("click", () => {
@@ -61,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
 
 
 
