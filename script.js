@@ -26,17 +26,16 @@ document.addEventListener("DOMContentLoaded", () => {
   // }
 
 
-  // التعامل مع الفورم
   const form = document.querySelector(".contact form");
   if (form) {
     form.addEventListener("submit", (e) => {
-      e.preventDefault(); // يمنع الريفريش
+      e.preventDefault(); 
       const name = document.getElementById("name").value.trim();
       const email = document.getElementById("email").value.trim();
 
       if (name.length >= 2 && email !== "") {
         alert("Thanks! Your (demo) form was submitted.");
-        form.reset(); // يفضي الحقول بعد الإرسال
+        form.reset(); 
       } else {
         alert("Please enter a valid name and email.");
       }
@@ -62,4 +61,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
 
